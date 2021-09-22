@@ -72,7 +72,8 @@ def game():
             
             if moves == 9:
                 print("It was a tie!")
-
+                break
+                
             if turn == "X":
                 turn = "O"
             else:
