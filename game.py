@@ -1,3 +1,11 @@
+"""
+
+A simple tic tac toe terminal program I made for the first solo project in codeacademy.
+
+Mainly was made to get familiar with git terminal commands.
+
+"""
+
 playing_board = {'1': ' ' , '2': ' ' , '3': ' ' ,
             '4': ' ' , '5': ' ' , '6': ' ' ,
             '7': ' ' , '8': ' ' , '9': ' ' }
@@ -29,37 +37,37 @@ def game():
 
                 elif playing_board["4"] == playing_board["5"] == playing_board["6"] != " ":
                     print_board(playing_board)
-                    print(turn + " won! Congratulations!!")
+                    print(turn + " won! Congratulations!")
                     break
 
                 elif playing_board["7"] == playing_board["8"] == playing_board["9"] != " ":
                     print_board(playing_board)
-                    print(turn + " won! Congratulations!!!")
+                    print(turn + " won! Congratulations!")
                     break
 
                 elif playing_board["1"] == playing_board["4"] == playing_board["7"] != " ":
                     print_board(playing_board)
-                    print(turn + " won! Congratulations!!!!")
+                    print(turn + " won! Congratulations!")
                     break
 
                 elif playing_board["2"] == playing_board["5"] == playing_board["8"] != " ":
                     print_board(playing_board)
-                    print(turn + " won! Congratulations!!!!!")
+                    print(turn + " won! Congratulations!")
                     break
 
                 elif playing_board["3"] == playing_board["6"] == playing_board["9"] != " ":
                     print_board(playing_board)
-                    print(turn + " won! Congratulations!!!!!!")
+                    print(turn + " won! Congratulations!")
                     break
 
                 elif playing_board["1"] == playing_board["5"] == playing_board["9"] != " ":
                     print_board(playing_board)
-                    print(turn + " won! Congratulations!!!!!!!")
+                    print(turn + " won! Congratulations!")
                     break
 
                 elif playing_board["3"] == playing_board["5"] == playing_board["7"] != " ":
                     print_board(playing_board)
-                    print(turn + " won! Congratulations!!!!!!!!")
+                    print(turn + " won! Congratulations!")
                     break
             
             if moves == 9:
